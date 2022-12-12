@@ -3,3 +3,4 @@ job('NodeJSexample'){
     git('https://github.com/gxg512/node-hello.git') { 
   }
 }
+}
