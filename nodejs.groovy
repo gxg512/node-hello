@@ -4,6 +4,7 @@ job('Node JS'){
      node / git ConfigName('DLS User')
      node / gitConfigEmail('jenkis@yahoo.com')
   }
+   }
     steps {
      shell("npm start")
 }
