@@ -1,11 +1,5 @@
-job('Node JS'){
+job('NodeJSexample'){
    scm {
-    git('https://github.com/gxg512/node-hello.git') { node ->
-     node / git ConfigName('DLS User')
-     node / gitConfigEmail('jenkis@yahoo.com')
+    git('https://github.com/gxg512/node-hello.git') { 
   }
-   }
-    steps {
-     shell("npm start")
-}
 }
